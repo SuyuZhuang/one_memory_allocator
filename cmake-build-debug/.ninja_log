@@ -1,0 +1,9 @@
+# ninja log v5
+1	71	1669444237077631489	CMakeFiles/one_memory_allocator.dir/main.c.o	df10f8f84bb13df5
+71	104	1669444237112797711	one_memory_allocator	c003e7fc85f6b69
+1	77	1669444445491080106	CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o	801361c584dd8b31
+1	79	1669444445493735687	CMakeFiles/one_memory_allocator.dir/main.c.o	df10f8f84bb13df5
+79	114	1669444445530613553	one_memory_allocator	d620016c51b27d2e
+1	66	1669444586225603887	CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o	801361c584dd8b31
+0	68	1669444586228132712	CMakeFiles/one_memory_allocator.dir/main.c.o	df10f8f84bb13df5
+68	100	1669444586260194495	one_memory_allocator	d620016c51b27d2e
