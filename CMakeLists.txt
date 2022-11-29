@@ -3,4 +3,4 @@ project(one_memory_allocator C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(one_memory_allocator main.c implicit_free_list.c implicit_free_list.h)
+add_executable(one_memory_allocator main.c sys_call_sbrk.c sys_call_sbrk.h)

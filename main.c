@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "implicit_free_list.h"
+#include "sys_call_sbrk.h"
 
 
 int main() {
@@ -15,5 +15,6 @@ int main() {
     printf("free(p2) brk=%p\n", sbrk(0));
     void *p4 = my_malloc(5 * sizeof(int));
     printf("p4=%p brk=%p\n", p4, sbrk(0));
+    brk();
     return 0;
 }

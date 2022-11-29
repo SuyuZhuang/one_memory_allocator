@@ -52,8 +52,8 @@ build CMakeFiles/one_memory_allocator.dir/main.c.o: C_COMPILER__one_memory_alloc
   OBJECT_DIR = CMakeFiles/one_memory_allocator.dir
   OBJECT_FILE_DIR = CMakeFiles/one_memory_allocator.dir
 
-build CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o: C_COMPILER__one_memory_allocator_Debug /Users/zhuangsuyu/CLionProjects/one_memory_allocator/implicit_free_list.c || cmake_object_order_depends_target_one_memory_allocator
-  DEP_FILE = CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o.d
+build CMakeFiles/one_memory_allocator.dir/sys_call_sbrk.c.o: C_COMPILER__one_memory_allocator_Debug /Users/zhuangsuyu/CLionProjects/one_memory_allocator/sys_call_sbrk.c || cmake_object_order_depends_target_one_memory_allocator
+  DEP_FILE = CMakeFiles/one_memory_allocator.dir/sys_call_sbrk.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/one_memory_allocator.dir
   OBJECT_FILE_DIR = CMakeFiles/one_memory_allocator.dir
@@ -66,7 +66,7 @@ build CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o: C_COMPILER__on
 #############################################
 # Link the executable one_memory_allocator
 
-build one_memory_allocator: C_EXECUTABLE_LINKER__one_memory_allocator_Debug CMakeFiles/one_memory_allocator.dir/main.c.o CMakeFiles/one_memory_allocator.dir/implicit_free_list.c.o
+build one_memory_allocator: C_EXECUTABLE_LINKER__one_memory_allocator_Debug CMakeFiles/one_memory_allocator.dir/main.c.o CMakeFiles/one_memory_allocator.dir/sys_call_sbrk.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
   OBJECT_DIR = CMakeFiles/one_memory_allocator.dir
   POST_BUILD = :
